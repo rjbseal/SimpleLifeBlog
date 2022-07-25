@@ -1,36 +1,36 @@
 body {
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 300;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
 }
 
-
 /* TYPEOGRAPHY */
-h1, h2 {
-    font-family: 'Lora', sans-serif;
-    color: #143774;
-    margin: 0;
+h1,
+h2 {
+  font-family: "Lora", sans-serif;
+  color: #143774;
+  margin: 0;
 }
 
 h2 {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 header {
-    background: #f8f8f8;
-    padding: 2em 0;
-    text-align: center;
-    margin-bottom: 3em;
+  background: #f8f8f8;
+  padding: 2em 0;
+  text-align: center;
+  margin-bottom: 3em;
 }
 
 .subtitle {
-    margin: 0;
-    color: #1792D2;
-    font-weight: 700;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
+  margin: 0;
+  color: #1792d2;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
 }
 
 /* =================
@@ -38,48 +38,48 @@ Layout
 ================= */
 
 .container {
-    max-width: 900px;
-    width: 90%;
-    margin: 0 auto;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .container-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Navigation */
 
 nav ul {
-    display: flex;
-    list-style: none;
-    flex-direction: column;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
 }
 
 ul li {
-    margin: 0.75em 0;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 1rem;
-    font-weight: 700;
+  margin: 0.75em 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 @media (min-width: 685px) {
-    .container-flex {
-        flex-direction: row;
-    }
-    nav ul {
-        flex-direction: row;
-        column-gap: 2em;
-    }
+  .container-flex {
+    flex-direction: row;
+  }
+  nav ul {
+    flex-direction: row;
+    column-gap: 2em;
+  }
 }
 
 a {
-    color: #707070;
-    text-decoration: none;
+  color: #707070;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
